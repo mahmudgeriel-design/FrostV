@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.frostvisuals.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "mixins.frostvisuals.refmap.json",
+  "mixins": [],
+  "client": [
+    "MixinGameRenderer",
+    "MixinIngameGui",
+    "MixinEntityRenderer",
+    "MixinLivingRenderer",
+    "MixinMinecraft",
+    "MixinFirstPersonRenderer",
+    "MixinPlayerEntity",
+    "MixinArrowRenderer",
+    "MixinCamera"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
