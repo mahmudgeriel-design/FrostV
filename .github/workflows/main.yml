@@ -1,0 +1,6 @@
+cd fv2-build
+git init
+git remote add origin https://github.com/mahmudgeriel-design/FrostVisuals.git
+git add .
+git commit -m "FrostVisuals 2.0 — full source"
+git push -u origin main
